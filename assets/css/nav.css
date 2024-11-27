@@ -1,0 +1,123 @@
+/* nav */
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+}
+.menu-wrapper {
+  color: #000000;
+  border-radius: 20%;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menu-wrapper span { /*  
+border: 1px solid transparent; 
+  border-image-source: linear-gradient(93.89deg, #8CB9CE -58.93%, #F1F1F1 93.26%);
+  border-image-slice: 1; 
+  border-radius: 30px;  */
+  padding: 10px;
+  font-weight: bold;
+}
+.hamburger {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+	background:#ffffff;
+}
+.hamburger-line {
+  position: absolute;
+  height: 1.5px;
+  background-color:var(--primary-blue);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+.hamburger-line:first-child {
+  width: 15px;
+  top: 15px;
+}
+.hamburger-line:nth-child(2) {
+  width: 25px;
+  top: 24px;
+}
+.hamburger-line:last-child {
+  width: 15px;
+  top: 33px;
+}
+
+.hamburger.active .hamburger-line:first-child {
+  top: 22px;
+  transform: rotate(45deg);
+  width: 25px;
+}
+
+.hamburger.active .hamburger-line:nth-child(2) {
+  opacity: 0;  
+}
+
+.hamburger.active .hamburger-line:last-child {
+  top: 22px;
+  transform: rotate(-45deg);
+  width: 25px;
+}
+
+#navbarMenu {
+  position: absolute;
+  top: 90px;
+  right: 0px;
+  width: 300px;
+  background: #ffffff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: none;
+  opacity: 0;
+  border-radius: 30px;
+  z-index: 10;
+}
+#navbarMenu ul {
+  padding: 1rem;
+  margin: 0;
+  list-style: none;
+}
+#navbarMenu ul li {
+  margin-bottom: 10px;
+}
+#navbarMenu ul li a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+#navbarMenu ul li a:hover {
+  background: var(--secondary-blue);
+  color: var(--primary-blue);
+}
+.bgred {
+  background-color: red
+}
+.nav-b {
+	background:#ffffff;
+  border-radius: 50px;
+  padding:8px;
+	border:1px solid var(--primary-blue);
+      
+}
+.header--scrolled .nav-b{border: 1px solid var(--primary-blue);}
+.navbar-toggler:focus {
+  border: none !important;
+  box-shadow: none
+}
+ 
+@media only screen and (max-width: 769px) {
+ 
+.nav-b { padding:0px;}
+.no-wrap{ flex-wrap: nowrap !important;}
+
+}
