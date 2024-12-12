@@ -421,6 +421,11 @@ section {
   background-image: url("../images/insights1.png");
   border: none;
 }
+.card-news3 {
+  background-image: url("../images/news-2.png");
+  border: none;
+	background-position: bottom right;
+}
 .card-gradient::before {
   content: "";
   background: rgb(0, 0, 0);
