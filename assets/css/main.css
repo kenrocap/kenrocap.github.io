@@ -716,3 +716,49 @@ footer a:hover {
 	.pt-250 { padding-top:150px;}
 	.subPage h4 {    padding-top: 20px;}
 }
+.head img {
+    min-width: 100%;
+}
+.card-ad-board {
+    margin:0px 20px;
+    border: 1px solid #ccc;
+    border-radius: 40px ;
+    min-height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex
+}
+.card-ad-board .ad-board-profile {
+    border-radius: 40px 40px 0 0;
+    margin-bottom: 20px;
+}
+.card-ad-board .ad-board-desc{
+    padding: 0px 20px;
+}
+.advisory-board .social-block{
+  padding: 0 20px 20px 0
+}
+.logo-image {
+    width: 60px;
+    margin-right: 20px;
+}
+.logo-image svg {
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 1024px) {
+    .card-ad-board {
+        margin: 0 0;
+    }
+    .ad-board-profile {
+        min-width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+.social-block{
+    padding: 0 40px 40px;
+}
+ .card-ad-board .ad-board-desc {
+        padding: 40px;
+    }
+    }
