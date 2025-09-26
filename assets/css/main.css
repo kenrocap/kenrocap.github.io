@@ -417,6 +417,12 @@ section {
   background-image: url("../images/media2.png");
   border: none;
 }
+.card-news4 {
+  background-image: url("../images/theContext-bg.jpg");
+  border: none;
+  background-size: cover; 
+  background-position: bottom right;
+}
 .card-insights1 {
   background-image: url("../images/insights1.png");
   border: none;
