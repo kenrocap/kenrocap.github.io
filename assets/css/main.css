@@ -432,6 +432,17 @@ section {
   border: none;
 	background-position: bottom right;
 }
+
+
+.card-news001 {
+  background-image: url("../images/giva.jpg");
+  border: none;
+	background-position: bottom right;
+}
+
+
+
+
 .card-gradient::before {
   content: "";
   background: rgb(0, 0, 0);
@@ -768,3 +779,10 @@ footer a:hover {
         padding: 40px;
     }
     }
+
+@media (max-width: 767px) {
+    .pb-md-5 {
+        height: 200px;
+    }
+    
+}
